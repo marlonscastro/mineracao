@@ -108,4 +108,7 @@ csvsql --query  "SELECT COUNT(UNIDADE),UNIDADE FROM 'sem_campos_vazios' group by
 |         1.426 | PRIVADO       |
 |           649 | NÃO INFORMADO |
 
+Pré Processamento dos dados 
+
+Exclusão da Coluna N_AÇÃO
 
