@@ -7,9 +7,10 @@ sexo
 ficha nº 
 mes ano
 naj
+cadast
 
 tinha 9585 de registros
-foram eliminados 7297 registro com campos vazios 
+foram eliminados 2297 registro com campos vazios 
 ficaram 7288 registros uteis 
 
 csvsql --query  "SELECT COUNT(MUNICIPIO),MUNICIPIO FROM 'PreProcessado' group by MUNICIPIO order by COUNT(MUNICIPIO) DESC limit 15" PreProcessado.csv | csvlook
@@ -176,7 +177,7 @@ RESTITUIU
 >>>> possui 191 valores distintos e foram selecionados apenas os 15 mais frequentes, o resto foi agrupado em OUTROS
 
 ### CADAST ###
->>>> possui 10 valores distintos e NÃO foi necessário criação ou exclusão de itens de atributo
+>>>> Item excluido pois representa apenas as iniciais de quem inseriu os dados no sistema (sem relevância).
 
 ### RESTITUIU ###
 >>>> Classe gerada automaticamente para conclusão da entrega da disciplina (SIM,NÃO)
