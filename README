@@ -1,3 +1,33 @@
+Toda a analise será feita em cima dos dados "relatorio_historico_compras_2017_2019.xls"
+
+1) Exclusão de atributos desnecessários
+
+Data de Emissão - Excluido por se tratar de datas
+OF - identifica o número do Oficio do processo 
+Data de recebimento - data em que foi entregue os produtos adquiridos
+Empenho - Numero da Nota de empenho que originou a compra, não tem relevancia.
+contrato - o Numero do contrato não influencia na decisão dos algoritmos
+Fornecedor - Não faz sentido, pois o fornecedor não influencia na restituição da comarca
+programa - o atributo contém apenas o valor "SAF- AÇÃO JUDICIAL" 
+Descrião do produto - Eliminado, pois tem-se o código do produto.
+unidade de medida - Não faz sentido manter este campo, pois identifica apenas a unidade na qual o produto vem empacotado
+
+Qtd Cancelada - Todos os registros possuem o valor "0"
+Valor cancelado - Todos os registros possuem o valor "0,00"
+Qtd a receber - possui valores iguais a Qtd Comprada
+
+--------------------------------------------------------
+
+Modificação do atributo tipo
+possuia tres valores distintos "Pregão", "Dispensa" e "Inexigibilidade"
+
+foi adicionado o valor "Outros" nos demais campos que estavam vazios.
+
+-------------------------------------------------------
+
+Foram adicionados os atributos "Municipio", "Origem" e "Comarca" para preenchimento da base 
+
+
 excluiu colunas 
 
 N_AÇÃO
