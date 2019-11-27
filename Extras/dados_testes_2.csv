@@ -1,4 +1,5 @@
-"Outros","Agreste","SUS","Recife","ANTIMICROBIANOS",390,0,593463,"Restituiu"
+"Tipo_Aquisicao","Municipio","Origem","Comarca","Conta_Contabil","Qtd_Comprada","Valor_a_receber","Valor_Comprado","Restituido"
+"Outros","Agreste","SUS","Recife","ANTIMICROBIANOS",390,0,593463,"Sim"
 "Outros","Grande_recife","FILANTRÓPICO","Recife","NUTRIÇÃO",250,0,"582.5","Sim"
 "Outros","Agreste","SUS","JFPE","MEDICAMENTOS",32,0,"82.88","Nao"
 "Outros","Agreste","SUS","Recife","MEDICAMENTOS",30,0,"35.1","Sim"
